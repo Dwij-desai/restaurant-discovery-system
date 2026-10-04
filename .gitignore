@@ -1,0 +1,15 @@
+# Your real connection string lives here - never commit it
+.env
+
+# Scala CLI / IDE build output
+.scala-build/
+.bsp/
+.metals/
+.vscode/
+.idea/
+*.class
+
+.DS_Store
+
+# Personal setup screenshots (used in the report, not part of the repo)
+Extra screenshots/
