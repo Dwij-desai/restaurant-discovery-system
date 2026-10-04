@@ -26,7 +26,7 @@ A menu-driven **Scala 3 CLI** that searches, edits and analyses New York restaur
 **You need:** Java 17 or newer, [Scala CLI](https://scala-cli.virtuslab.org/install) (`brew install Virtuslab/scala-cli/scala-cli`), and a MongoDB Atlas cluster with the sample dataset loaded (Atlas → your cluster → **⋯** → **Load Sample Dataset**). sbt is not needed.
 
 ```bash
-git clone <this repository>
+git clone https://github.com/Dwij-desai/restaurant-discovery-system.git
 cd restaurant-discovery
 cp .env.example .env          # then paste your Atlas connection string into .env
 scala-cli run .
